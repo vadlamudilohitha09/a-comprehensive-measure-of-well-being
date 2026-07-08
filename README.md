@@ -1,58 +1,168 @@
-A Comprehensive Measure of Well-Being (HDI Prediction)
+# A Comprehensive Measure of Well-Being (HDI Prediction)
 
-Overview
+## Overview
 
-This project leverages Machine Learning to predict the Human Development Index (HDI) based on key socio-economic indicators such as income, education, and life expectancy. The goal is to move beyond GDP-based rankings and provide a more comprehensive, data-driven measure of a country's well-being using a trained regression model.
+**A Comprehensive Measure of Well-Being** is a Machine Learning project that predicts the **Human Development Index (HDI)** using important socio-economic indicators such as income, education, and life expectancy. The objective of this project is to provide a more comprehensive evaluation of a country's development beyond traditional GDP-based measures.
 
-The project follows a structured SDLC-style workflow — from ideation through deployment and demonstration — with each phase documented in its own folder.
+The project follows the **Software Development Life Cycle (SDLC)**, covering all stages from brainstorming and requirement analysis to design, development, testing, documentation, and deployment.
 
-Live Application
+---
 
-🔗 https://hdiproject.onrender.com
+## Project Objectives
 
-Key Features
+* Predict Human Development Index (HDI) using Machine Learning.
+* Analyze the relationship between socio-economic indicators and human development.
+* Provide a simple web application for real-time HDI prediction.
+* Demonstrate the complete SDLC process for a Machine Learning project.
 
+---
 
-Predictive Modeling – Trained regression model estimates HDI scores from socio-economic inputs.
-User-Friendly Interface – Simple, responsive web form for entering indicator values.
-Dynamic Results – Real-time prediction of HDI score and corresponding development category (Low / Medium / High / Very High).
-Cloud Deployment – Fully deployed and publicly accessible via Render.
+## Key Features
 
+* Machine Learning-based HDI prediction.
+* Easy-to-use web interface.
+* Instant prediction results.
+* Classification of HDI into different development categories.
+* Data preprocessing and feature engineering.
+* Flask-based web application.
+* Complete project documentation.
 
-Tech Stack
+---
 
-LayerTechnologyModeling & AnalysisPython, Jupyter Notebook, Scikit-Learn, Pandas, NumPyBackendPython (Flask)FrontendHTML5, CSS3, JavaScriptDeploymentRender
+## Technologies Used
 
-Repository Structure
+| Category                | Technologies              |
+| ----------------------- | ------------------------- |
+| Programming Language    | Python                    |
+| Data Analysis           | Pandas, NumPy             |
+| Machine Learning        | Scikit-learn              |
+| Visualization           | Matplotlib                |
+| Backend                 | Flask                     |
+| Frontend                | HTML, CSS, JavaScript     |
+| Development Environment | Jupyter Notebook, VS Code |
+| Version Control         | Git & GitHub              |
 
-This repository documents the project across its full development lifecycle:
+---
 
-├── 1.Brainstorming & Ideation/     # Problem statement, idea generation
-├── 2.Requirement Analysis/         # Functional & non-functional requirements
-├── 3.Project Design Phase/         # Data flow diagrams, architecture, UI design
-├── 4.Project Planning Phase/       # Sprint/milestone planning
-├── 5.Project Development Phase/    # Model training notebooks & app code
-├── 6.Project Testing/              # Test cases and validation results
-├── 7.Project Documentation/        # Final project report and supporting docs
-├── 8.Project Demonstration/        # Demo video / screenshots
-└── README.md
+## Project Structure
 
+```
+1. Brainstorming & Ideation
+2. Requirement Analysis
+3. Project Design Phase
+4. Project Planning Phase
+5. Project Development Phase
+6. Project Testing
+7. Project Documentation
+8. Project Demonstration
+README.md
+```
 
-Note: Model training and experimentation are primarily carried out in Jupyter Notebooks under the Development phase folder; the deployable web app (Flask backend + HTML/CSS frontend) is built from the resulting trained model.
+---
 
-
-
-Getting Started
+## Installation
 
 Clone the repository:
 
-bashgit clone https://github.com/uryapraveen/A-Comprehensive-Measure-of-Well-Being
-cd A-Comprehensive-Measure-of-Well-Being
+```bash
+git clone https://github.com/vadlamudilohitha09/a-comprehensive-measure-of-well-being.git
+```
 
-Explore the notebooks in the Development Phase folder to see the data preprocessing, model training, and evaluation steps. To run the web application locally, install the dependencies listed for the Flask app (see the Development Phase folder) and run:
+Move into the project folder:
 
-bashpython app.py
+```bash
+cd a-comprehensive-measure-of-well-being
+```
 
-Performance
+Install the required libraries:
 
-The trained model achieved an R² score of 0.981, indicating high predictive accuracy against actual HDI values. The deployed application was stress-tested using Postman to confirm stable response times under concurrent load.
+```bash
+pip install -r requirements.txt
+```
+
+Run the Flask application:
+
+```bash
+python app.py
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## Machine Learning Workflow
+
+* Data Collection
+* Data Cleaning
+* Feature Selection
+* Data Preprocessing
+* Model Training
+* Model Evaluation
+* Model Deployment
+* Prediction through Web Application
+
+---
+
+## Model Performance
+
+The regression model provides accurate Human Development Index (HDI) predictions with strong performance after training and evaluation on the dataset.
+
+Performance metrics include:
+
+* High R² Score
+* Low Mean Squared Error (MSE)
+* Efficient prediction time
+
+---
+
+## Team Details
+
+**Project Title**
+
+A Comprehensive Measure of Well-Being (HDI Prediction)
+
+**College**
+
+Seshadri Rao Gudlavalleru Engineering College
+
+**Department**
+
+Internet of Things (IoT)
+
+**Project Lead**
+
+Vadlamudi Lohitha
+
+**Team Members**
+
+* Vadlamudi Lohitha
+* V. Kamalini
+* T. Jaswanth Kumar
+* Teja Sree
+* Devika
+
+---
+
+## Future Enhancements
+
+* Improve prediction accuracy using advanced Machine Learning models.
+* Add interactive data visualization dashboards.
+* Deploy using cloud platforms for wider accessibility.
+* Integrate additional socio-economic indicators.
+* Develop a responsive mobile-friendly interface.
+
+---
+
+## Acknowledgement
+
+We sincerely thank the faculty members of **Seshadri Rao Gudlavalleru Engineering College** for their valuable guidance and continuous support throughout the development of this project.
+
+---
+
+## License
+
+This project is developed for academic and educational purposes.
